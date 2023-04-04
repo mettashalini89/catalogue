@@ -1,16 +1,16 @@
 @Library('roboshop') _
 
-pipeline{
+pipeline {
   agent any
-  stages{
-    stage('Compile/Build'){
-      steps{
+  stages {
+    stage('Compile/Build') {
+      steps {
         echo 'Compile/Build'
       }
     }
 
-    stage('Test Cases'){
-      steps{
+    stage('Test Cases') {
+      steps {
         echo 'Test Cases'
       }
     }
